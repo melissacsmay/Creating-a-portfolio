@@ -1,0 +1,93 @@
+style.css
+
+body{
+ background-image: url("https://juegosrev.com/wp-content/uploads/2017/06/Wallpapers-Tintin-Gallery-66-Plus-PIC-WPW3014041.png")
+ background-repeat: no-repeat;
+}
+
+nav {
+position: fixed;
+}
+
+#centeredmenu {
+ clear:both;
+   min-width: 220px;
+   margin: auto;
+}
+
+
+img {
+    width:100%;
+    height:auto;
+    border: 5px;
+    padding: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    align-items: center;
+}
+
+
+
+/* Three images */
+.column {
+  width: 33.33%;
+  }
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+
+p strong, p1{
+margin-left: 25%;
+margin-right:50%;
+font-size: 1.5vw;
+}
+
+p{
+	color: black;
+	border: 100px;
+	align-content: center;
+	margin-left: 110px;
+	margin-right: 150px;
+  padding: 10px;
+}
+
+h2{
+	margin-left: 110px;
+	margin-right: 150px;
+}
+
+h3{
+	background-color: pink;
+	border-width: 5px;
+	-moz-border-radius: 6px; 
+    border-radius: 6px;
+    margin-left: 110px;
+    margin-right: 150px;
+    padding: 20px;
+}
+
+h4, ul{
+	color: black;
+	margin-left: 118px;
+  padding-top: 20px;
+}
+
+iframe {
+	display: block;
+	margin: 0px auto;
+  padding-bottom: 20px;
+}
+
+
+background-attachment: fixed;
+background-position: 50% 50%;
+
+
+
